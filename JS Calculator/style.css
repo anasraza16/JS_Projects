@@ -1,0 +1,20 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+table button {
+    width: 100%;
+    height: 100%;
+}
+
+.spl-btn {
+    width: 24px;
+}
+
+.clr-btn {
+    background-color: red;
+    color: white;
+}
