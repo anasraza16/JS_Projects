@@ -7,7 +7,7 @@ let clr = () => {
 };
 
 let solve = () => {
-    let x = document.getElementById("display").value;
-    let y = eval(x);
-    document.getElementById("display").value = y;
+    let inputValue = document.getElementById("display").value;
+    let evaluate = eval(inputValue);
+    document.getElementById("display").value = evaluate;
 };
