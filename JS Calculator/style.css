@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "raza";
+    src: url("./assets/fonts/calculator-fonts/digital-7.ttf");
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -24,6 +29,8 @@ table {
 }
 
 input {
+    font-family: "raza", arial;
+    letter-spacing: 6px;
     width: 100%;
     height: 50px;
     border: none;
@@ -31,7 +38,6 @@ input {
     text-align: right;
     padding: 10px;
     font-size: 18px;
-    border-radius: 10px;
     background: #2c2c3e;
     color: #fff;
 }
