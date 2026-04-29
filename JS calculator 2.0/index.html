@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Calculator 3.0</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="calculator">
+
+        <div class="display">
+            <input type="text" readonly placeholder="0" id="screen" maxlength="11">
+        </div>
+
+
+        <div class="btnCon">
+            <button onclick="clr()" class="acBtn">AC</button>
+            <button onclick="back()" class="bckBtn">⌫</button>
+            <button onclick="pick('%')" class="splBtn">%</button>
+            <button onclick="pick('/')" class="splBtn">/</button>
+        </div>
+
+        <div class="btnCon">
+            <button onclick="pick(7)">7</button>
+            <button onclick="pick(8)">8</button>
+            <button onclick="pick(9)">9</button>
+            <button onclick="pick('*')" class="splBtn">*</button>
+        </div>
+
+        <div class="btnCon">
+            <button onclick="pick(4)">4</button>
+            <button onclick="pick(5)">5</button>
+            <button onclick="pick(6)">6</button>
+            <button onclick="pick('-')" class="splBtn">-</button>
+        </div>
+
+        <div class="btnCon">
+            <button onclick="pick(1)">1</button>
+            <button onclick="pick(2)">2</button>
+            <button onclick="pick(3)">3</button>
+            <button onclick="pick('+')" class="splBtn">+</button>
+        </div>
+
+        <div class="btnCon">
+            <button onclick="pick('.')">.</button>
+            <button onclick="pick(0)">0</button>
+            <button onclick="pick('00')">00</button>
+            <button onclick="solve()" class="splBtn">=</button>
+        </div>
+
+        <div class="credit"><p>Raza</p></div>
+
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
